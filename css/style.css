@@ -1,0 +1,196 @@
+* {
+    font-family: "Arial", Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.main-section {
+    background-color: #333;
+    flex: 1;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    flex: 1;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    max-width: fit-content;
+    height: 100%;
+}
+
+.home,
+.search,
+.lib,
+.songs,
+.liked {
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    gap: 1rem;
+}
+
+.home img,
+.search img,
+.lib img,
+.songs img,
+.liked img {
+    width: fit-content;
+    height: fit-content;
+}
+
+.L1 {
+    margin: 1rem;
+}
+
+.played {
+    padding-top: 2rem;
+
+}
+
+.info {
+    padding-top: 11rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ads {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer {
+    margin-bottom: 100px;
+}
+
+.btn1,
+.btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 15px;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+    padding: 1rem;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    list-style: none;
+    gap: 4rem;
+}
+
+.box li {
+    color: white;
+    padding: 6px;
+    border-radius: 1px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box li:hover {
+    background-color: #181818;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.right-btn,
+.left-btn {
+    background-color: black;
+    padding: 9px;
+    border: 1rem;
+    border-radius: 2rem;
+    opacity: 80%;
+}
+
+.pf {
+    width: 8.2rem;
+    height: 2rem;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    border: 5px;
+    border-radius: 4px;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.pf img {
+    background-color: black;
+    border: 10px;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.images-section {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 57rem;
+}
+
+.side-btn {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+}
+
+.card-container {
+    padding: 45px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.cards {
+    background-color: #181818;
+    padding: 0.5rem;
+    width: 13rem;
+    height: 18.5rem;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.cards img {
+    margin: 0;
+    padding: 0;
+}
+
+.cards h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.cards p {
+    color: grey;
+    margin: 0;
+    padding: 0;
+}
